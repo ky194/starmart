@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    max-width: 1200px; /* Limits width for laptops */
+    margin: 0 auto; /* Centers content */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #FF7BAC;
+    font-size: 32px;
+}
+
+.header-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.return-home {
+    font-size: 14px;
+    color: #FF7BAC;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.username {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #00FF00; /* Green username */
+}
+
+/* Icon Section */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.icons img {
+    width: 70px; /* Adjusted for larger laptop layout */
+    height: 70px;
+    background-color: #333;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Posts Section */
+.posts {
+    margin-bottom: 30px;
+}
+
+.posts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.posts-header h2 {
+    font-size: 24px;
+}
+
+.posts-header .see-more {
+    font-size: 16px;
+    color: #FF7BAC;
+    text-decoration: none;
+}
+
+.posts-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.posts-grid img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Settings Section */
+.settings h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.settings ul {
+    list-style: none;
+    padding: 0;
+}
+
+.settings li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.settings li a {
+    color: white;
+    text-decoration: none;
+}
+
+.settings li a.logout {
+    color: red;
+}

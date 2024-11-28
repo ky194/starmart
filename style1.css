@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* black background */
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ff8a8a; /* Light pink */
+    font-size: 18px;
+}
+
+.header .title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.header .links span {
+    margin-left: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+}
+
+.search-bar {
+    padding: 10px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 90%;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: #000000; /* Black background for contrast */
+}
+
+.icons img {
+    width: 60px; /* Increase width for larger icons */
+    height: 60px; /* Match height to maintain proportional scaling */
+    transition: transform 0.2s ease-in-out; /* Optional: Smooth transition for hover effects */
+}
+
+.icons img:hover {
+    transform: scale(1.2); /* Optional: Slightly enlarge icons on hover */
+}
+
+@media (min-width: 768px) {
+    .icons img {
+        width: 80px; /* Even bigger icons on larger screens */
+        height: 80px;
+    }
+}
+
+.section {
+    padding: 15px 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section h2 a {
+    color: #ff8a8a;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
