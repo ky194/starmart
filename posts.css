@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+a.return-home {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.post-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Left Section: Image Upload */
+.image-upload {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-upload label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.image-placeholder {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    background-color: #3e3e3e;
+    border: 2px dashed #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.image-placeholder p {
+    text-align: center;
+    margin: 0;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Right Section: Form Fields */
+.form-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.condition-options label,
+.deal-methods label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button Styles */
+.post-button {
+    padding: 10px 20px;
+    background-color: #29a329;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+
+.post-button:hover {
+    background-color: #249224;
+}
