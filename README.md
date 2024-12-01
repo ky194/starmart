@@ -39,7 +39,7 @@ Figma link: https://www.figma.com/design/dmQks6aUZ8Z511BMOBH5uI/FED_S10269261F_K
 5. Responsive deisgn
    - Optimized for both laptop and mobile layouts, ensuring consistent experience across devices.
 
-## Features left to implement
+# Features left to implement
 1. Search Functionality
    - A dedicated search bar with advanced filters (e.g., price range, categories)
 2. Rating and Feedback System
